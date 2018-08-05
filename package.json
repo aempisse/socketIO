@@ -1,0 +1,19 @@
+{
+  "name": "socket_server",
+  "version": "0.0.1",
+  "description": "socket.io server training",
+  "scripts": {
+    "server": "node ./server/server.js",
+    "client": "webpack"
+  },
+  "author": "aempisse",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "socket.io": "^2.1.1",
+    "webpack": "^4.16.3"
+  }
+}
